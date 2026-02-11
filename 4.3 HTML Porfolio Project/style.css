@@ -1,0 +1,40 @@
+.web{
+    color:rgb(156, 23, 252);
+}
+footer{
+    color:midnightblue;
+   text-align: center;
+   clear: both;
+}
+.movie{
+    float: left;
+    display:block;
+}
+.birthday{
+    float:right;
+}
+h1{
+    font-style: oblique;
+}
+body{
+    background-color:cornsilk;
+}
+@media(max-width:680px){
+    img{
+        width:100px;
+        display:inline-block;
+        margin:5px;
+    }
+    .movie{
+        display:block;
+        text-align:center;
+    }
+    .birthday{
+        display:block;
+        text-align: center;
+    }
+    .birthday{
+        float:left;
+        
+    }
+}

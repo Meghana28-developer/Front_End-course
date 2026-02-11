@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    background-color: #e4f9f5;
+    min-height: 100vh;
+    color:#66bfbf;
+    text-align: center;
+    position: relative;
+    padding-top: 120px;
+    display: block;
+    padding-top: 100px;
+}
+
+.first .name{
+    font-size: 5.625rem;
+    font-family:"Sacramento", cursive ;
+    margin: 50px auto 0 auto ;
+}
+
+.first .subtitle{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.first span{
+    text-decoration: underline;
+}
+
+.first .cloud-image-1{
+    position: absolute;
+    right: 300px;
+    top: 40px;    
+}
+
+
+.first .cloud-image-2{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+.second{
+    min-height: 100vh;
+    display: block;
+    text-align: center;
+    margin: 100px 100px ;
+    justify-content: center;
+}
+
+.second h3{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+
+}
+.second h4{
+    color: #66bfbf;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+
+}
+
+
+.second .profile-img{
+    border-radius: 50%;
+}
+
+.second .text{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin:100px auto;
+}
+
+.second .skills-title{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+   
+
+}
+
+.second .skills .grid{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1,1fr) ;
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 0 auto ;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    align-items: space-around ;
+}
+
+.second .chillies{
+    width: 50%;
+    margin-left: 30px;
+}
+
+div{
+    display: block;
+}
+p{
+    line-height: 2;
+}
+
+.get-in-touch{
+    padding-bottom: 10px;
+    
+    
+}
+ .contactme{
+    font-size: 2rem;
+    color: #1aafb7;
+    
+ }
+
+ .get-in-touch h2{
+    padding-bottom: 10px;
+    color: #66bfbf;
+    font-size: 2.5rem;
+}
+
+.get-in-touch p{
+    font-size: 1.5rem;
+    width: 38%;
+    margin: 30px auto 30px;
+}
+
+.button{
+ padding-bottom: 50px;   
+}
+
+button{
+    width: 200px;
+    height: 70px;
+    border:none;
+    outline: none;
+    background-color: #1aafb7;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 600px;
+}
+
+button:hover{
+    background-color:#61e7e7;
+    cursor: pointer;
+}
+
+.third{
+    background-color: #66bfbf;
+    width: 100%;
+    height: 120px;
+    padding:0px 0 20px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.third a{
+    color: #11999e;
+    text-decoration: none;
+    margin: 10px  20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.third a:hover{
+    color: white;
+}
+
+.third p{
+    padding-top: 20px;
+    color: white;
+}
