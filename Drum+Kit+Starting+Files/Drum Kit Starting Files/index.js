@@ -13,7 +13,7 @@ document.addEventListener("keypress",function(event){
     makeSound(event.key);
 });
 function makeSound(key){
-    
+    buttonAnimation(key);
     switch(key){
         case "w": var kick=new Audio("sounds/kick-bass.mp3");
                 kick.play();
@@ -39,4 +39,12 @@ function makeSound(key){
         
     }
    
+}
+
+function buttonAnimation(currentkey){
+        var activeButton=document.querySelector("."+ currentkey);
+        activeButton.classList.add("pressed");
+        setTimeout(function(){
+                activeButton.classList.remove("pressed");
+        },100);
 }
